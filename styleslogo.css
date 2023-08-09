@@ -1,0 +1,118 @@
+/* Reset default styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Story card styles */
+  .story-card {
+    max-width: 45%;
+    margin: 40px auto;
+    border: 3px solid #d3cad7de;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 80px rgb(199, 158, 199);
+    background-color: #dad1db;
+  }
+  
+  .story-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+  }
+  
+  .story-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .story-content {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .che{
+    color: rgba(40, 36, 36, 0.855);
+    width: 100px;
+    height: 50%auto;
+    margin: 20px auto;
+    background-color:#dad1db;
+  }
+  a{
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Reset default button styles */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  border-radius: 4%;
+  color: #fff;
+}
+
+/* YouTube button styles */
+.youtube-button {
+  background-color: #c4302b;
+}
+
+.youtube-button:hover {
+  background-color: #ff0000;
+}
+
+/* Instagram button styles */
+.instagram-button {
+  background-color: #405DE6;
+}
+
+.instagram-button:hover {
+  background-color: #5865F2;
+}
+
+/* Threads button styles */
+.threads-button {
+  background-color: #FF6A00;
+}
+
+.threads-button:hover {
+  background-color: #FF7C2C;
+}
+
+/* Twitter button styles */
+.twitter-button {
+  background-color: #1DA1F2;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.twitter-button:hover {
+  background-color: #1A91DA;
+}
+
+/* Gmail button styles */
+.gmail-button {
+  background-color: #D44638;
+  font-size: 28px;
+  padding: 4px 24px;
+
+}
+
+.gmail-button:hover {
+  background-color: #E74E42;
+}
